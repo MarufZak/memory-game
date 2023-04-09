@@ -16,6 +16,7 @@ import {
   DiRubyRough,
   DiUnitySmall,
 } from 'react-icons/di';
+import { FaCcVisa, FaCuttlefish } from 'react-icons/fa';
 
 export const gameOptions = [
   {
@@ -70,6 +71,7 @@ export const gameOptions = [
   },
 ];
 export const icons = [
+  '',
   DiAndroid,
   DiAngularSimple,
   DiApple,
@@ -86,4 +88,6 @@ export const icons = [
   DiReact,
   DiRubyRough,
   DiUnitySmall,
+  FaCcVisa,
+  FaCuttlefish,
 ];

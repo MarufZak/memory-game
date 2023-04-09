@@ -53,6 +53,7 @@ const GameBoard = () => {
   const tiles = React.useMemo(() => {
     return randomRepeatedRange(tilesNumber / 2).map((item) => {
       // divide by 2 bcs numbers are repeated
+      console.log(icons[item]);
       return {
         id: crypto.randomUUID(),
         title: item,
@@ -127,7 +128,7 @@ const GameBoard = () => {
           currentUser={currentUser}
         />
       ) : (
-      <SinglePlayerScoreboard
+        <SinglePlayerScoreboard
           foundTiles={foundTiles}
           tilesNumber={tilesNumber}
           players={players}

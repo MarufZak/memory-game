@@ -78,7 +78,7 @@ const Wrapper = styled(Modal)`
       border-radius: 26px;
       font-size: 2rem;
       width: 100%;
-      background-color: var(----color-yellow-500);
+      background-color: var(--color-yellow-500);
       color: var(--color-gray-200);
       cursor: pointer;
     }
