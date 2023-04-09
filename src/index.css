@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+@import './reset.css';
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-yellow-500: #fda214;
+  --color-gray-blue-300: #bcced9;
+  --color-gray-blue-500: #7191a5;
+  --color-gray-blue-700: #304859;
+  --color-gray-blue-900: #152938;
+  --color-gray-100: #fcfcfc;
+  --color-gray-200: #dfe7ec;
+  --color-gray-300: #f2f2f2;
+  --color-blue-400: #6395b8;
+  --color-black-500: #00000080;
+}
+
+body {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+#root {
+  height: 100%;
+}
+
+button {
+  border: none;
+}
